@@ -21,3 +21,18 @@ class City(Base):
     id = Column(Integer, primary_key=True)
     state_id = Column(Integer, ForeignKey('states.id'), nullable=False)
     name = Column(String(128), nullable=False)
+print ( (" Pleae selct the options-- - : " )
+print ( for addition") )
+print ( " 2 for
+print ( " 3 for multiplication")
+ print ( " 4 for division") )
+ choice - input ** Enter your choice-- " ) )
+first= int (input Enter first Number
+second= int ( input ( e Enter second Number
+ if choice == '1'
+     print Answer is first + second )
+ elif choice ..
+     print ( " Answer is " first - second )
+ elif choice ==
+     print (" Answer is " F first*second )
+elif choice 4 11
